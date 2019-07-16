@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>勇杰电器商行</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<style type="text/css">
+			body { margin-left: 0px; margin-top: 0px; margin-right: 0px; }
+			#ul_detail_list{ margin: 0px; padding: 30px 2.5%; width: 100%; box-sizing: border-box; list-style: none;}
+			#ul_detail_list > li{ width: 100%; text-align: center;}
+			#ul_detail_list > li > img{ width: 100%; margin-bottom: 20px; }
+			#ul_detail_list > li > img:last-child{ width: 100%; margin-bottom: 0px; }
+			.pageFont{ cursor: pointer; }
+			.alivePage{ color: #00A0E9; }
+		</style>
+	</head>
+	<body>
+		<!-- imgContainer + pagepicker -->
+		<ul id="ul_detail_list">
+			<!-- imgContainer -->
+			<li></li>
+			<!-- pagepicker -->
+			<li></li>
+		</ul>
+		<script src="js/publick.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+				var windowHref = window.location;
+				switch (true){
+					case windowHref.search == ('?goodsId=1'):
+						var dataImg = [
+							'images/充电台灯系列/01.jpg',
+							'images/充电台灯系列/02.jpg',
+							'images/充电台灯系列/03.jpg',
+							'images/充电台灯系列/04.jpg',
+							'images/充电台灯系列/05.jpg',
+							'images/充电台灯系列/06.jpg',
+							'images/充电台灯系列/07.jpg',
+							'images/充电台灯系列/08.jpg',
+							'images/充电台灯系列/09.jpg',
+							'images/充电台灯系列/10.jpg',
+							'images/充电台灯系列/11.jpg',
+							'images/充电台灯系列/12.jpg',
+							'images/充电台灯系列/13.jpg',
+							'images/充电台灯系列/14.jpg',
+							'images/充电台灯系列/15.jpg',
+							'images/充电台灯系列/16.jpg',
+							'images/充电台灯系列/17.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=2'):
+						var dataImg = [
+							'images/充电小风扇系列/01.jpg',
+							'images/充电小风扇系列/02.jpg',
+							'images/充电小风扇系列/03.jpg',
+							'images/充电小风扇系列/04.jpg',
+							'images/充电小风扇系列/05.jpg',
+							'images/充电小风扇系列/06.jpg',
+							'images/充电小风扇系列/07.jpg',
+							'images/充电小风扇系列/08.jpg',
+							'images/充电小风扇系列/09.jpg',
+							'images/充电小风扇系列/10.jpg',
+							'images/充电小风扇系列/11.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=3'):
+						var dataImg = [
+							'images/电蚊拍系列/01.jpg',
+							'images/电蚊拍系列/02.jpg',
+							'images/电蚊拍系列/03.jpg',
+							'images/电蚊拍系列/04.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=4'):
+						var dataImg = [
+							'images/护眼台灯系列/01.jpg',
+							'images/护眼台灯系列/02.jpg',
+							'images/护眼台灯系列/03.jpg',
+							'images/护眼台灯系列/04.jpg',
+							'images/护眼台灯系列/05.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=5'):
+						var dataImg = [
+							'images/卡通灭蚊灯系列/01.jpg',
+							'images/卡通灭蚊灯系列/02.jpg',
+							'images/卡通灭蚊灯系列/03.jpg',
+							'images/卡通灭蚊灯系列/04.jpg',
+							'images/卡通灭蚊灯系列/05.jpg',
+							'images/卡通灭蚊灯系列/06.jpg',
+							'images/卡通灭蚊灯系列/07.jpg',
+							'images/卡通灭蚊灯系列/08.jpg',
+							'images/卡通灭蚊灯系列/09.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=6'):
+						var dataImg = [
+							'images/卡通台扇系列/01.jpg',
+							'images/卡通台扇系列/02.jpg',
+							'images/卡通台扇系列/03.jpg',
+							'images/卡通台扇系列/04.jpg',
+							'images/卡通台扇系列/05.jpg',
+							'images/卡通台扇系列/06.jpg',
+							'images/卡通台扇系列/07.jpg',
+							'images/卡通台扇系列/08.jpg',
+							'images/卡通台扇系列/09.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=7'):
+						var dataImg = [
+							'images/人体秤系列/01.jpg',
+							'images/人体秤系列/02.jpg',
+							'images/人体秤系列/03.jpg',
+							'images/人体秤系列/04.jpg',
+							'images/人体秤系列/05.jpg',
+							'images/人体秤系列/06.jpg',
+							'images/人体秤系列/07.jpg',
+							'images/人体秤系列/08.jpg',
+							'images/人体秤系列/09.jpg',
+							'images/人体秤系列/10.jpg',
+							'images/人体秤系列/11.jpg',
+							'images/人体秤系列/12.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=8'):
+						var dataImg = [
+							'images/手压小风扇系列/01.jpg',
+							'images/手压小风扇系列/02.jpg',
+							'images/手压小风扇系列/03.jpg',
+							'images/手压小风扇系列/04.jpg',
+							'images/手压小风扇系列/05.jpg',
+							'images/手压小风扇系列/06.jpg',
+							'images/手压小风扇系列/07.jpg',
+							'images/手压小风扇系列/08.jpg',
+							'images/手压小风扇系列/09.jpg',
+							'images/手压小风扇系列/10.jpg',
+							'images/手压小风扇系列/11.jpg',
+							'images/手压小风扇系列/12.jpg',
+							'images/手压小风扇系列/13.jpg',
+							'images/手压小风扇系列/14.jpg',
+							'images/手压小风扇系列/15.jpg',
+							'images/手压小风扇系列/16.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=9'):
+						var dataImg = [
+							'images/网灯 灯串系列/01.jpg',
+							'images/网灯 灯串系列/02.jpg',
+							'images/网灯 灯串系列/03.jpg',
+							'images/网灯 灯串系列/04.jpg',
+							'images/网灯 灯串系列/05.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=10'):
+						var dataImg = [
+							'images/星星灯串挂件系列/01.jpg',
+							'images/星星灯串挂件系列/02.jpg',
+							'images/星星灯串挂件系列/03.jpg',
+							'images/星星灯串挂件系列/04.jpg',
+							'images/星星灯串挂件系列/05.jpg',
+							'images/星星灯串挂件系列/06.jpg',
+							'images/星星灯串挂件系列/07.jpg',
+							'images/星星灯串挂件系列/08.jpg',
+							'images/星星灯串挂件系列/09.jpg',
+							'images/星星灯串挂件系列/10.jpg',
+							'images/星星灯串挂件系列/11.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=11'):
+						var dataImg = [
+							'images/衣服干洗器系列/01.jpg',
+							'images/衣服干洗器系列/02.jpg',
+							'images/衣服干洗器系列/03.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					case windowHref.search == ('?goodsId=12'):
+						var dataImg = [
+							'images/盈誉灭蚊灯系列/01.jpg',
+							'images/盈誉灭蚊灯系列/02.jpg',
+							'images/盈誉灭蚊灯系列/03.jpg',
+							'images/盈誉灭蚊灯系列/05.jpg',
+							'images/盈誉灭蚊灯系列/06.jpg',
+							'images/盈誉灭蚊灯系列/07.jpg',
+							'images/盈誉灭蚊灯系列/08.jpg',
+						];
+						createDomByData(dataImg,5);
+						break;
+					default:
+						break;
+				}
+			}
+		</script>
+	</body>
+	
+</html>
